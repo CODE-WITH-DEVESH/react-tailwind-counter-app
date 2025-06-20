@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  let [counter, setcounter] = useState(15)
+  let [counter, setcounter] = useState(1)
 
   const addvalue = () => {
     console.log('Value Added', { counter })
@@ -18,9 +18,9 @@ function App() {
 
   return (
     <div className="flex flex-col items-center justify-center mix-h-screen bg-gradient-to-br from-[#1e3a8a] via-[#9333ea] to-[#f43f5e] px-4 py-6 sm:px-6 text-white transition-all duration-500">
-      
+
       <div className="bg-white/10 backdrop-blur-md p-8 rounded-3xl shadow-2xl max-w-md w-full text-center animate-fade-in">
-        
+
         <h1 className="text-4xl sm:text-5xl font-extrabold mb-6 drop-shadow-md">
           Welcome to <span className="text-yellow-300">React.js</span>
         </h1>
